@@ -50,7 +50,6 @@ int main()
 
 		switch (num)
 		{
-      		system("cls");
 		case 1:
 			size = 0;
 			do
@@ -79,11 +78,9 @@ int main()
 				printf("%d ", a[i]);
 			}
 			flag = true;
-      			system("cls");
 			break;
 
 		case 2:
-      			system("cls");
 			if (size > 0)
 			{
 				delete[] a;
@@ -105,11 +102,9 @@ int main()
 				printf("%d ", a[i]);
 			}
 			flag = true;
-      			system("cls");
 			break;
 
 		case 3:
-      			system("cls");
 			if (flag == true)
 			{
 				for (int i = 0; i < size; i++)
@@ -122,11 +117,9 @@ int main()
 				}
 				printf("\nСреднее арифметическое всех положительных элементов = %.2f", pol / kolvo);
 			}
-      			system("cls");
 			break;
 
 		case 4:
-      			system("cls");
 			if (flag == true)
 			{
 				max = a[0];
@@ -145,7 +138,6 @@ int main()
 				}
 				printf("\nСумма элементов, расположенных до максимального элемента: %d", doo);
 			}
-      			system("cls");
 			break;
 
 
